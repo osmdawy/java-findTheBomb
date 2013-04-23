@@ -1,0 +1,157 @@
+nlevels=6
+level=1
+dimension=20
+map=
+xrrxrxx rrx rx rrrxx
+xxrrx   xrr  r6xxrx 
+xrxr  x xxxrrrxrx x 
+xr xx xr rr xr  r  x
+rxxxr xxxx  r  x   x
+rxrrr xxxx  xxr  x  
+r xx r xrxxrxx  xx8r
+rx  rxxxxx xx  xxxxx
+xrrrrx r x xxxxr   x
+xr xrx   rxxrr   r r
+r xr rxr   x r xxxrr
+ r xx xrrrxr  x  xrx
+ rrxxr  rr rxrrxrxx 
+xrrrrr xrxr x    rrr
+x rr     r   xx  rrr
+xr  xxxrx xrxr rrx r
+ x xxrxr  rr x rxr r
+x  rrr  rx  rx r    
+ r  x rx rx  rxrrx  
+ xrrxxr2xrrrr x   r 
+level=0
+dimension=6
+map=
+  8 7B
+rrrx r
+r4x rx
+xrr r 
+2 xrxr
+ x xx6
+level=2
+dimension=39
+map=
+xr    rr rr   xr rxxr   rxxx rrrx r rx 
+r  xrrxxx   xx  xxrr    x r   xx   r rx
+rrr x xxx rx  xrr rxx xrx  xrxr6x x xr 
+x  rrr  r    r  rx rxrrr xrxrx  r rrrrr
+r  xx  xrx xr  xxrxr r  rrr xx rx xrx x
+xr r  8xxrxx r xxrr  rxrrxx xrrxr  rrrx
+rx xxr xrr r x rrxxrxr  xxx  rr rx  xrx
+  rxrxxx  xxxrxrx xx rx x  x rxr     rr
+x  xrr xrrx rrxxrxx r xxx r      x   rr
+r rxr   x xx  r r r x xxrr xrr rxx   xx
+rrxr  x xx rxrxx xrrxr  xxrrxrrxr xxxx 
+r rxrxx rxx x rr  xr rxrxx  xxxx  x  xx
+rrxrr    xx xxr    xr rxxrx  r xrx rx  
+rx x x rrr    xxxrxx xrxxxr     xr x xx
+xx xxr r rxxrr rx x rr x  xr7xxrrx r x 
+rr  xxx xxxxxxx  rx  r  rr  rrrrxrx  xx
+x rrrrr x xrr  rxr   rrr  r xr rxrrxx x
+  xxr xxr   rrxxxr  r x xrrrrr   r r x 
+ rrxxxrxrrx  rxxx      r  r rxxr xx x  
+r x r  r xr r rr xxrxxxrx x r rx xxr  x
+r rxx rxrx x xr  rx  rrrxxxrxrx x r xxx
+ xxr  rrrx    xrr rrx r xrxr  x  x1rr  
+    r  x xxrrrx    xrxxxrrrr    r xr rx
+rrxr rxrxxr x rxr rr x  rxxxrxr rxrr   
+x rr  rrr rx r    xrr  r xx0 x  x rr  x
+x rrrrrrx r   xrrx rx x  xrx xrxrxxrxxx
+rrr  xx xx xrx x  rrxxxr  rxxr  x  rxx 
+x rx xr rrr  xrrr xrrx xr     x rxxrrr 
+xxxxr x xxx x rx rrr   xrrx r xrrr x rx
+r xx  rxx  rxrrxrxxr r r rr rx  x  rrrx
+r xrx  x xxrx x   r4x rrxxxrx r rxxxr  
+x  x  x rrrx rr xr rrrx rrr  xx rx  x  
+ rx xxrrrxxr xxx rx  rxxxrxrr x xxx  x 
+r xx   xxr  rxrxrxrxrxxrxx x x  x  x xr
+r x r rx rx rr     xr rx  rrxrrxxxxrxrr
+xr rxxxxx rxxxx  x x r  x   rxrrxrxx xx
+rrrrrrxrrr xr xrx xx xr  xxxxrrrr xxxxx
+rxxxr x  xxrrx    xxr  xrr xrrxrxxxx  r
+ r rr  r r  xr rx  x xx rxrxrrrrxxx x  
+level=8
+dimension=45
+map=
+ xrx    r  r  xxxxrxrr xxr xxr x xrx  r r  xr
+rx xx   rrrx rrr rx  x xrrrx rr rx rrxr r r  
+r rxrx xxrrxxx x rrrxrr xrx rxx  rr xrx rrr x
+r   rxrx rxxxr   x x xrrr   rxr x rr x x  rxr
+xrr x x r xr xrrrrxrr xxrrrx r  xxxrx9  rr rr
+xx  rrrx xxxrx r r r r rrxr rrx rr xx    xrx 
+xrr xr x  rrx xr x  r rx xr  rrxrxrr rr  xrr 
+ rx rr    rrrr rr   xx rrrx   rrr xrr   xxxxx
+rr r xx   x x xxxxxr x  r  r rxr r    r rx rr
+   r    xrrxr   xxrr xxxxxrxrxr xr rxx xx r  
+ x x  x   r x xrxr  rx xx rr  xx r rrxxrrxx x
+  xrxxxrrrxr  rrxx  rrx  rxx rxxxr rr xrrr r 
+xr x xrr rrxrxrrx  xrr rx xrrrxr r rxxx    rx
+ xr xr  r  rrrr rxx rxrrx xxrxrxrrxr x x xx x
+xrxrrrxx  r rxrrxxrrxxx  r rrrx x x r  rxr rr
+ xrxr r x x r 1    rxxr  r xrxrxrrxrr xrr  rx
+x rxxxx    xx xrxrrrrx xxr  r rxrx    x  xrr 
+rrx xrxr xr rrxxx x xxr rx xxr     xx rr rrrx
+r x   x r xr   x xxx rrxxr 2 xr    xrrr  rr  
+ xr rxx  rxx   rr x rxx xrxxx x  xxrxr xxr xr
+rrx    xx  xxrrx  xxx rrx rxrrxrxrx x   r   r
+rxrx rxx xrr rrrrrxr   rxxrrrxx xxrxrx0 r xrr
+rrxrrx   rxxxrrxrx x xr  x  x xr  xx xxrrr rx
+       xxrrrr  x xrrrrrxxrr  rrrx rrr  r   r 
+rr r xrrxr xx  xxrxr xx xxx  rrxr  rrrr xrrxr
+  x rxxrrr r xrxrrr rxr r rrxr  x   xx  x rxr
+xrxrxrrxrx  x r  xxr rxxrrxxrr x rr x  rx    
+ r rxrx  rrr rrrxxr  xxxrrrxrxrrr rxrrrrr r  
+rr   rr  xx  r rrr    rrrx  xrx rrr  rxx  rxx
+r x rrxxr xxxrrx   rx  rr rx xxrrrx r r rx r 
+rx x x rxx  r  x xrrrxrxrxrrxrrrxrr xxxxx  rx
+ rr r r5 rrr xxx xr rx x xxr rrrrx x  r  rr x
+rxxxrx rxr rxxx  xr x rr  rrx xrx x r  xrx xx
+x xrxr xx rrx xxr r xxx xx  rxrrx   rxxr  rrx
+r xxr rx xx6xrr r r xxxrr rrrr  rrrrxx r  xxr
+ x x x r    rxrrrrxrr rxxrr  r rxrx r rx    r
+rrxr r  xx rxr r xxx  r  r r x   rxr rr   xxr
+ xxx   rx    rxrrr   xxrxrr r  rx x xr rr r r
+   x   r xrx x  xxrxr rr rrxx  xx x  xxxr r x
+rx    x   xxrr rxrrr   x  rrxxx xxx  xxxxxxxr
+r r rrrxr x x  xxrrrx xrrxx xrrr    xxrxrrrrr
+r rrxrxxxx rr xrxxrxrrxxxx  rr   rr  x r xxx 
+x rx rrrr  x xxrrr rrxx   rrxx x   xr r x x x
+x xxrrxx xxxx rrrxrxxrrx xx xrrxx   x r xxrr 
+xx xr x  x xxx x     rrxx xrrxx rx xrr xxx   
+level=4
+dimension=5
+map=
+  x90
+x6rx 
+ x xx
+ xr V
+xx2xx
+level=6
+dimension=23
+map=
+xrxxrr rxx  r   xxrx xr
+  rrrx  r rrr xr  rx  x
+rxr  rxr S xrx r    r x
+xr    rrr rx  rr r x rx
+xxr x xxxxrxxxr rrxx xx
+  xxx  r  r  rx x rxr r
+xrxrrr xxrrr   xr rrxx 
+xrx xx x rxxx rrr rx  r
+rxx0 xrxrxxr   xrxx  xr
+rxrr x r  x xx xxxxx r 
+   rrxrrrx rxrx xxr rxx
+xxrxxxr   rxx xrr  xr x
+xr rr  rxrx  xxx   xx  
+xx  r r  xxr r xxrx xrr
+rrxxx    x rxx x r   x 
+r      x7x  r rxrr xxx 
+r r r   r3 r 4rrxx rr 2
+rrxx xrr  rx xx x xr  r
+ rrxxxrr8rx x     x    
+xrrxr rrr rxrxrxr r rrx
+xx xr5  r x x xxrrrxrx 
+r  rr x x xr rx xxrxxxr
+   r xxrrxxx r rr1xxr r

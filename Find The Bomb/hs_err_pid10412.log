@@ -1,0 +1,127 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+# java.lang.OutOfMemoryError: requested 32744 bytes for ChunkPool::allocate. Out of swap space?
+#
+#  Internal Error (allocation.cpp:166), pid=10412, tid=9680
+#  Error: ChunkPool::allocate
+#
+# JRE version: 6.0_24-b07
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (19.1-b02 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000062fb000):  JavaThread "CompilerThread0" daemon [_thread_in_native, id=9680, stack(0x00000000067a0000,0x00000000068a0000)]
+
+Stack: [0x00000000067a0000,0x00000000068a0000]
+
+Current CompileTask:
+C2: 88  !   sun.awt.PostEventQueue.flush()V (60 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00000000083fa000 JavaThread "TimerQueue" daemon [_thread_blocked, id=1592, stack(0x00000000093f0000,0x00000000094f0000)]
+  0x00000000005db000 JavaThread "DestroyJavaVM" [_thread_blocked, id=7056, stack(0x00000000023d0000,0x00000000024d0000)]
+  0x0000000006332000 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=10368, stack(0x0000000007210000,0x0000000007310000)]
+  0x0000000006331000 JavaThread "AWT-Windows" daemon [_thread_in_native, id=6036, stack(0x0000000007110000,0x0000000007210000)]
+  0x0000000006330000 JavaThread "AWT-Shutdown" [_thread_blocked, id=10724, stack(0x0000000007010000,0x0000000007110000)]
+  0x0000000006355800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=10556, stack(0x0000000006f10000,0x0000000007010000)]
+  0x0000000006300800 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=6612, stack(0x00000000069a0000,0x0000000006aa0000)]
+  0x0000000006300000 JavaThread "CompilerThread1" daemon [_thread_blocked, id=3792, stack(0x00000000068a0000,0x00000000069a0000)]
+=>0x00000000062fb000 JavaThread "CompilerThread0" daemon [_thread_in_native, id=9680, stack(0x00000000067a0000,0x00000000068a0000)]
+  0x00000000062f7800 JavaThread "Attach Listener" daemon [_thread_blocked, id=8808, stack(0x00000000066a0000,0x00000000067a0000)]
+  0x00000000062f2800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=7880, stack(0x00000000065a0000,0x00000000066a0000)]
+  0x00000000062a5800 JavaThread "Finalizer" daemon [_thread_blocked, id=5908, stack(0x00000000064a0000,0x00000000065a0000)]
+  0x00000000003fa000 JavaThread "Reference Handler" daemon [_thread_blocked, id=7432, stack(0x00000000061a0000,0x00000000062a0000)]
+
+Other Threads:
+  0x00000000003f4800 VMThread [stack: 0x00000000060a0000,0x00000000061a0000] [id=10868]
+  0x0000000006314000 WatcherThread [stack: 0x0000000006aa0000,0x0000000006ba0000] [id=10064]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ PSYoungGen      total 15616K, used 5295K [0x00000000f60b0000, 0x00000000f9390000, 0x0000000100000000)
+  eden space 14400K, 34% used [0x00000000f60b0000,0x00000000f6593de0,0x00000000f6ec0000)
+  from space 1216K, 23% used [0x00000000f6ec0000,0x00000000f6f08000,0x00000000f6ff0000)
+  to   space 13440K, 0% used [0x00000000f8670000,0x00000000f8670000,0x00000000f9390000)
+ PSOldGen        total 39040K, used 19539K [0x00000000e2200000, 0x00000000e4820000, 0x00000000f60b0000)
+  object space 39040K, 50% used [0x00000000e2200000,0x00000000e3514cf0,0x00000000e4820000)
+ PSPermGen       total 21248K, used 11031K [0x00000000dd000000, 0x00000000de4c0000, 0x00000000e2200000)
+  object space 21248K, 51% used [0x00000000dd000000,0x00000000ddac5e98,0x00000000de4c0000)
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042e000 	C:\Program Files\Java\jdk1.6.0_24\bin\java.exe
+0x0000000076e20000 - 0x0000000076fcc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000076d00000 - 0x0000000076e1f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd0a0000 - 0x000007fefd10b000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefd670000 - 0x000007fefd74b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefee50000 - 0x000007fefeeef000 	C:\Windows\system32\msvcrt.dll
+0x000007feff110000 - 0x000007feff12f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefd430000 - 0x000007fefd55e000 	C:\Windows\system32\RPCRT4.dll
+0x000000006d890000 - 0x000000006df94000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\server\jvm.dll
+0x0000000076c00000 - 0x0000000076cfa000 	C:\Windows\system32\USER32.dll
+0x000007fefd600000 - 0x000007fefd667000 	C:\Windows\system32\GDI32.dll
+0x000007feff100000 - 0x000007feff10e000 	C:\Windows\system32\LPK.dll
+0x000007fefe810000 - 0x000007fefe8da000 	C:\Windows\system32\USP10.dll
+0x000007fef9de0000 - 0x000007fef9e1b000 	C:\Windows\system32\WINMM.dll
+0x000007fefd150000 - 0x000007fefd17e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefed40000 - 0x000007fefee49000 	C:\Windows\system32\MSCTF.dll
+0x000000006d800000 - 0x000000006d80e000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\verify.dll
+0x000000006d450000 - 0x000000006d477000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\java.dll
+0x000000006d3b0000 - 0x000000006d3ba000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\hpi.dll
+0x0000000076fe0000 - 0x0000000076fe7000 	C:\Windows\system32\PSAPI.DLL
+0x000000006d850000 - 0x000000006d862000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\zip.dll
+0x000000006d0a0000 - 0x000000006d263000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\awt.dll
+0x000007fef78b0000 - 0x000007fef7920000 	C:\Windows\system32\WINSPOOL.DRV
+0x000007fefeef0000 - 0x000007feff0f2000 	C:\Windows\system32\ole32.dll
+0x000007fefda50000 - 0x000007fefe7d6000 	C:\Windows\system32\SHELL32.dll
+0x000007fefe980000 - 0x000007fefe9f1000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefb6e0000 - 0x000007fefb8d4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_fa62ad231704eab7\COMCTL32.dll
+0x000007fefa530000 - 0x000007fefa548000 	C:\Windows\system32\DWMAPI.DLL
+0x000007fefb4d0000 - 0x000007fefb526000 	C:\Windows\system32\uxtheme.dll
+0x000007fefccb0000 - 0x000007fefccbf000 	C:\Windows\system32\CRYPTBASE.dll
+0x000000006d340000 - 0x000000006d3a6000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\fontmanager.dll
+0x000000006d570000 - 0x000000006d5a5000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\jpeg.dll
+0x000000006d6a0000 - 0x000000006d6b7000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\net.dll
+0x000007fefd3e0000 - 0x000007fefd42d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe7e0000 - 0x000007fefe7e8000 	C:\Windows\system32\NSI.dll
+0x000007fefc5f0000 - 0x000007fefc644000 	C:\Windows\system32\mswsock.dll
+0x000007fefc5e0000 - 0x000007fefc5e7000 	C:\Windows\System32\wship6.dll
+0x000000006d6c0000 - 0x000000006d6cb000 	C:\Program Files\Java\jdk1.6.0_24\jre\bin\nio.dll
+0x000007fefe8e0000 - 0x000007fefe979000 	C:\Windows\system32\CLBCatQ.DLL
+0x000007fefea80000 - 0x000007fefeb57000 	C:\Windows\system32\OLEAUT32.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Djava.security.policy=applet.policy 
+java_command: findthebomb.Game
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\ImageConverter Plus;C:\Program Files (x86)\ImageConverter Plus\Microsoft.VC90.CRT;C:\Program Files (x86)\ImageConverter Plus\Microsoft.VC90.MFC;;C:\Windows\Microsoft.NET\Framework\v2.0.50727;C:\Program Files (x86)\Windows Live\Shared
+USERNAME=Eng Omnia
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 2, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 1954328k(139820k free), swap 7817312k(1504k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (19.1-b02) for windows-amd64 JRE (1.6.0_24-b07), built on Feb  2 2011 16:25:45 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Sat Jun 11 04:02:28 2011
+elapsed time: 253 seconds
+
